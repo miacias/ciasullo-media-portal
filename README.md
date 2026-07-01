@@ -17,7 +17,7 @@ This project is a Next.js app (App Router) that serves the Ciasullo Media Portal
 
 ## Prerequisites
 
-- Node.js 20.x (recommended; matches the Docker image)
+- Node.js 20.x (matches Docker image)
 - npm 10+
 
 ## Local Development
@@ -59,9 +59,9 @@ Optional runtime variables:
 
 ## Production Deployment
 
-You can deploy with Docker (recommended) or directly with Node.
+Deploy with Docker or directly with Node.
 
-### Option A: Docker (Recommended)
+### Docker
 
 This repo includes a multi-stage Dockerfile that builds a standalone Next.js runtime.
 
@@ -90,7 +90,7 @@ This repo includes a multi-stage Dockerfile that builds a standalone Next.js run
 	docker logs --tail=100 portal
 	```
 
-### Option B: Direct Node Runtime
+### Direct Node Runtime
 
 1. Install dependencies:
 
